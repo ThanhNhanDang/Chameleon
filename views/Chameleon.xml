@@ -11,7 +11,7 @@
                 <t t-set="icon_color" t-value="request.env['ir.config_parameter'].sudo().get_param('change_odoo_theme_header_color.icon_color')"></t>
                 <t t-set="filter_color" t-value="request.env['ir.config_parameter'].sudo().get_param('change_odoo_theme_header_color.filter_color')"></t>
                 <t t-set="title_color" t-value="request.env['ir.config_parameter'].sudo().get_param('change_odoo_theme_header_color.title_color')"></t>
-                <t t-set="image_128" t-value="request.env['ir.config_parameter'].sudo().get_param('change_odoo_theme_header_color.image_128')"></t>
+                <t t-set="image_1024" t-value="request.env['ir.config_parameter'].sudo().get_param('change_odoo_theme_header_color.image_1024')"></t>
                 <t t-set="background_color" t-value="request.env['ir.config_parameter'].sudo().get_param('change_odoo_theme_header_color.background_color')"></t>
                 <t t-set="font_family" t-value="request.env['ir.config_parameter'].sudo().get_param('change_odoo_theme_header_color.font_family')"></t>
                 <t t-set="buble_color" t-value="request.env['ir.config_parameter'].sudo().get_param('change_odoo_theme_header_color.buble_color')"></t>
@@ -38,13 +38,18 @@
 
                 <t t-set="discuss_background" t-value="request.env['ir.config_parameter'].sudo().get_param('change_odoo_theme_header_color.discuss_background')"></t>
                 <t t-set="discuss_chose_sidebar" t-value="request.env['ir.config_parameter'].sudo().get_param('change_odoo_theme_header_color.discuss_chose_sidebar')"></t>
-
-
+                <t t-set="image_logo_homepage_64"
+                    t-value="request.env['ir.config_parameter'].sudo().get_param('change_odoo_theme_header_color.image_logo_homepage_64')"></t>
                 <style type="text/css">
                     <!-- body{
                         user-select: none !important;
                     } -->
                     <!-- Thanh navigationbar -->
+
+                     <t t-if="image_logo_homepage_64">.oi-apps:before { content:
+                    url('data:image/png;base64,<t t-esc="image_logo_homepage_64" />') !important; }</t>
+                    
+
                     .o_main_navbar .o_menu_sections .o_nav_entry, .o_main_navbar .o_menu_sections .dropdown-toggle {
                         background: <t t-esc="navbar_background_color"/> !important;
                         color: <t t-esc="navbar_text_color"/> !important;

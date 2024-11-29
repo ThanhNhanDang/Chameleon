@@ -1,5 +1,1 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-Chameleon.access_Chameleon_course_user,Course User,Chameleon.model_course_odoo,course_group_user,1,1,1,0
-Chameleon.access_Chameleon_course_manager,Course Manager,Chameleon.model_course_odoo,course_group_manager,1,1,1,1
-Chameleon.access_Chameleon_lesson_user,Course User,Chameleon.model_lesson_odoo,lesson_group_user,1,1,1,0
-Chameleon.access_Chameleon_lesson_manager,Course Manager,Chameleon.model_lesson_odoo,lesson_group_manager,1,1,1,1

@@ -43,10 +43,10 @@
             <field name="key">change_odoo_theme_header_color.drop_text_color</field>
             <field name="value">#121212</field>
         </record>
-        <record id="website_title" model="ir.config_parameter">
+        <!-- <record id="website_title" model="ir.config_parameter">
             <field name="key">change_odoo_theme_header_color.website_title</field>
-            <field name="value"></field>
-        </record>
+            <field name="value"> </field>
+        </record> -->
 
         <record id="buble_color" model="ir.config_parameter">
             <field name="key">change_odoo_theme_header_color.buble_color</field>

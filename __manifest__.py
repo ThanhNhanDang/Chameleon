@@ -32,16 +32,11 @@
     # Những file ảnh hưởng trực tiếp đến giao diện (không phải file để chỉnh sửa giao diện)
     ## hoặc hệ thống (file group, phân quyền)
     'data': [
-        'security/security.xml',
         'security/ir.model.access.csv',
         'views/course_list_template.xml',
-        'views/menu_item_course.xml',
-        'views/menu_item_lesson.xml',
-        'views/menu_view.xml',
         'views/ChangeColorTheme.xml',
         'views/ResConfigSettings.xml',
         'views/Chameleon.xml',
-        
     ],
 
     # Import các file cấu hình (chỉ gọi từ folder 'static')
