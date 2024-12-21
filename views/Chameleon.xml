@@ -48,7 +48,6 @@
 
                      <t t-if="image_logo_homepage_64">.oi-apps:before { content:
                     url('data:image/png;base64,<t t-esc="image_logo_homepage_64" />') !important; }</t>
-                    
 
                     .o_main_navbar .o_menu_sections .o_nav_entry, .o_main_navbar .o_menu_sections .dropdown-toggle {
                         background: <t t-esc="navbar_background_color"/> !important;

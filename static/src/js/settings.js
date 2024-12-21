@@ -10,8 +10,6 @@ patch(WebClient.prototype, {
     setup() {
         super.setup();
         this.rpc = useService("rpc"); 
-        console.log("aaaa")
-
         this.updateTitle();
         this.updateLogo();
 
@@ -25,7 +23,6 @@ patch(WebClient.prototype, {
             kwargs: {},
         });
         
-        console.log(title)
         this.title.setParts({ zopenerp: title || "" });
     },
 

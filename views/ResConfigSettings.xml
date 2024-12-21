@@ -7,7 +7,7 @@
             <field name="inherit_id" ref="base.res_config_settings_view_form" />
             <field name="arch" type="xml">
                 <xpath expr="//app[@name='general_settings']//div[@id='invite_users']"
-                    position="before">
+                    position="after">
                     <div id="navbar_colors_configuration">
                         <block title="Màu sắc chủ đề" name="color_setting_container">
                             <setting id="image_1024" string="Logo" help="">
