@@ -1,6 +1,6 @@
 {
     # Tên module
-    'name': 'Chameleon Odoo 17.0',
+    'name': 'Chameleon Odoo 18.0',
     'version': '1.0',
 
     # Loại module
