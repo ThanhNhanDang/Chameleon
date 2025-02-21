@@ -19,7 +19,7 @@
     # Module dựa trên các category nào
     # Khi hoạt động, category trong 'depends' phải được install
     ### rồi module này mới đc install
-    'depends': ['base_setup'],
+    'depends': ['base_setup', "point_of_sale"],
 
     # Module có được phép install hay không
     # Nếu bạn thắc mắc nếu tắt thì làm sao để install
@@ -47,6 +47,10 @@
     'assets': {
         'web.assets_backend': [
             'Chameleon/static/src/js/settings.js',
+        ],
+       
+        'point_of_sale.assets_prod': [
+            'Chameleon/static/src/pos/**/*',
         ],
     },
     'license': 'LGPL-3',
